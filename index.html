@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JJ McCormick's Final Dev</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!--Nav bar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">JJ McCormick's Final Dev</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="https://github.com/jeffreymccormick8/finaldev" target="_blank">Repo</a>
+          <a class="dropdown-item" href="https://codepen.io/jeffreymccormick8/" target="_blank">CodePen.io</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="button">Login</button>
+    </form>
+  </div>
+</nav>
+
+<main role="main" class="container">
+
+  <!--header for page-->
+  <div class="starter-template">
+    <h1>Welcome to JJ's Final Dev Project</h1>
+    <p>This project demonstartes the output of vaiables in <br> assuming that the back end of this
+    allows the user to enter <br> in their own text and upload their own image. <br> Below is the output: </p>
+  </div>
+<!--start of syllabus-->
+  <dev class="syllabus">
+    <h2>Required Textbooks</h2> <hr>
+    
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#book1" role="button" aria-expanded="false" aria-controls="book1">HTML & CSS</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#book2" aria-expanded="false" aria-controls="book2">JS & jQ</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="book1 book2">Both</button>
+</p>
+    <div class="collapse multi-collapse" id="book1">
+      <div class="card card-body">
+      <!--first book inserted by js-->
+        <div id="book1ele">
+          </div></div>
+      </div>
+    </div>
+    <div class="collapse multi-collapse" id="book2">
+      <div class="card card-body">
+        <!--second book inserted by js-->
+        <div id="book2ele"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!--footer-->
+<footer class="footer">
+  <div class="foot-container">
+    <span class="text-muted">JJ McCormick© 2020. All rights reserved.</span>
+  </div>
+</footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js'></script>
+<script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script><script  src="./js/script.js"></script>
+
+</body>
+</html>
